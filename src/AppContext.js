@@ -6,7 +6,8 @@ export default class AppContext extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: 'Hello coder9s group',
+      value: 'hello',
+      display: true,
     };
   }
 
