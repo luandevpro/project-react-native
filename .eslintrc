@@ -9,6 +9,9 @@
       "react/prop-types": [2, {
          "ignore": ["children"]
       }],
-      "react/no-unused-state": "error"
+      "react/no-unused-state": "error",
+      "no-use-before-define": ["error", {
+         "variables": false
+      }]
    }
 }
